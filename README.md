@@ -1,7 +1,6 @@
 
 
 # Election_Analysis
-Python Election Analysis | Module 3
 
 ## Project Overview
 Colorado Board of Elections employees Tom and Seth have given me the following tasks to complete an audit of a recent local congressional election: 
@@ -20,7 +19,6 @@ To complete the analysis used the following resources:
 * Software: Python 3.6.1 and Visual Studio Code 1.38.1: We used these software resources to extract, calculate and present our analysis results. 
 
 ## Election-Audit Results: 
-
 The analysis of the election shows that: 
 
 * There were 369,711 votes total
@@ -57,5 +55,5 @@ For a National Election, such as a presidential election, this script could be m
 
 Additionally to adapt this script for a National Election, we'd want to change county information to stat information. The screenshots below reference the places in the script where county could be changed to state. We would need to modify the list and dictionary we created, as well as the variables we set specifically for the county. The calculations would be the same, but instead of using and analyzing counties, we'd be analyzing states. 
 
-### Mayoral or other local Election Script Adaptation
+### Mayoral or Other Local Election Script Adaptation
 For an even more local election, such as a mayoral race in a city, the script could be modified to report just the results for the race in the city. As with the National Election mentioned above, or any other election, we'd need to modify the data file in our script to pull from the new data file. In addition, we could remove all of the variables, lists, and references to county as for a local election in a single city, we'd need a simpler script just to tally the total number of votes, candidates, and their votes & percentages of votes received to determine the winner. 
